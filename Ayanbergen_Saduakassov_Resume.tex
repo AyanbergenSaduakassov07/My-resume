@@ -1,0 +1,192 @@
+%-------------------------
+% Ayanbergen Saduakassov -- AI Engineer | Civil and Industrial Engineering
+% Layout: "Jake's Resume" by Jake Gutierrez (MIT License), github.com/jakegut/resume
+% Compile: pdflatex Ayanbergen_Saduakassov_Resume.tex
+%------------------------
+
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\hypersetup{
+  pdftitle={Ayanbergen Saduakassov - Forward-Deployed AI Engineer, Civil and Industrial Engineering},
+  pdfauthor={Ayanbergen Saduakassov},
+  pdfsubject={Resume},
+  pdfkeywords={AI Engineer, Forward Deployed Engineer, LLM, AI agents, multi-agent orchestration, RAG, MCP, evals,
+    text-to-SQL, PyTorch, computer vision, BIM, IFC, civil engineering, energy, pipelines}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Margins
+\addtolength{\oddsidemargin}{-0.62in}
+\addtolength{\evensidemargin}{-0.62in}
+\addtolength{\textwidth}{1.24in}
+\addtolength{\topmargin}{-0.9in}
+\addtolength{\textheight}{1.85in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\linespread{0.96}
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{-5pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-4pt}]
+
+% Machine-readable PDF (ATS)
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands (Jake's Resume)
+\newcommand{\resumeItem}[1]{
+  \item {\small #1\par}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.98\textwidth}[t]{@{}l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small #3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-6pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.98\textwidth}{@{}l@{\extracolsep{\fill}}r}
+      \small #1 & #2 \\
+    \end{tabular*}\vspace{-6pt}
+}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.12in, label={}, itemsep=0pt, topsep=2pt]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.16in, itemsep=0.6pt, topsep=1pt, parsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2pt}}
+
+%-------------------------------------------
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Ayanbergen Saduakassov} \\ \vspace{2pt}
+    {\normalsize Forward-Deployed AI Engineer $|$ Civil and Industrial Engineering} \\ \vspace{2pt}
+    \small +7 775 577 1111 $|$ \href{mailto:ayansaduakassov@gmail.com}{\underline{ayansaduakassov@gmail.com}} $|$
+    \href{https://linkedin.com/in/ayanbergensaduakassov}{\underline{linkedin.com/in/ayanbergensaduakassov}} $|$
+    \href{https://github.com/AyanbergenSaduakassov07}{\underline{github.com/AyanbergenSaduakassov07}}
+\end{center}
+\vspace{-6pt}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Cardiff University Kazakhstan}{Astana, Kazakhstan}
+      {B.Eng.\ Civil Engineering; Altyn Belgi State Scholar (top 4\% nationally); Foundation Year 72\% (First)}{2025 -- 2029}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {AI Engineering Intern}{Jul.\ 2026 -- Sep.\ 2026}
+      {KazMunayGas (KMG), national oil and gas company --- Digitization Department}{Astana, Kazakhstan}
+      \resumeItemListStart
+        \resumeItem{Enabled KMG's \textbf{9-member Management Board and 9-member Board of Directors} to query oil production, downtime and well data in plain language by building an AI analytics platform on the live data warehouse.}
+        \resumeItem{Eliminated invented figures, verified by \textbf{1,260+ automated tests} and an \textbf{evaluation harness} across four LLM providers, by having the model choose from a hand-written semantic layer while fixed code builds every query (\textbf{text-to-SQL}).}
+        \resumeItem{Automated IT-budget review for KMG's 64-company group, with \textbf{45+ budgets audited} to date, by building a platform where subsidiaries upload Excel workbooks and AI audits every CAPEX/OPEX line, scores the submission and reports findings to the reviewing manager.}
+        \resumeItem{Earned a full-time AI Engineer offer within three months by delivering for production, industrial, engineering, finance and HR departments.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Independent AI and Software Engineer}{Nov.\ 2025 -- Present}
+      {Quasi-state and national companies, private firms and small and medium businesses}{Astana, Kazakhstan}
+      \resumeItemListStart
+        \resumeItem{Delivered production software for clients in energy, construction and healthcare, owning each project from requirements to handover, by building \textbf{full-stack applications}, \textbf{AI agents}, automations and websites.}
+        \resumeItem{\textbf{Cut manual document processing 60\%} for construction clients by deploying \textbf{RAG agents} over their document archives and automations chaining OCR, validation and CRM/ERP write-back.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Research and Development Intern}{Jun.\ 2025 -- Aug.\ 2025}
+      {KazTransOil (KTO), national oil-pipeline operator --- Standards and Innovation Department}{Astana, Kazakhstan}
+      \resumeItemListStart
+        \resumeItem{Established the data baseline for the department's AI-adoption review, covering \textbf{1,000+ operational records} of the national trunk-pipeline network, by structuring them into one clean, consistent dataset.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+
+      \resumeProjectHeading
+          {\textbf{AXION, AI Construction Intelligence Platform} $|$ \emph{Python, FastAPI, IfcOpenShell, OpenCV, React, three.js}}{2026 -- Present}
+          \resumeItemListStart
+            \resumeItem{Founder and sole engineer; piloting with \textbf{KazTransOil's R\&D Centre}. Turns 2D construction drawings into checked 3D building models (BIM) in under 20 seconds and answers engineers' questions by chat.}
+            \resumeItem{\textbf{Drawings to BIM:} \textbf{computer vision} and geometry rebuild models from PDF and DXF drawings. On a real four-storey apartment block, every floor outline landed within 10 mm of the architect's dimensions; on a 30-building synthetic benchmark, matching accuracy rose from 37\% to 99\% against the published method.}
+            \resumeItem{\textbf{Model QA:} checks models against client requirements, tracks fixes across revisions and exports issues to Revit; processes 17,553-element models in under 25 seconds and caught volumes wrong by a factor of a billion in public samples.}
+            \resumeItem{\textbf{Copilot:} tool-calling assistant (EN/RU/KZ) that can only cite elements it retrieved; eval suite, \textbf{prompt-injection tests} and 650+ automated tests.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Synarch (formerly KazLex AI), Multi-Agent Platform for Institutions} $|$ \emph{TypeScript, PostgreSQL, MCP}}{2025 -- Present}
+          \resumeItemListStart
+            \resumeItem{Gave the \textbf{General Prosecutor's Office of Kazakhstan} cited answers across 3,350+ articles of law, at \textbf{87.3\% recall@10} on a hand-verified benchmark, by building a legal \textbf{RAG} module that verifies every citation against the source text.}
+            \resumeItem{Made AI agents safe for institutional use, backed by 1,300+ tests, by building a control kernel where every action by Director, Analyst, Auditor and Legal agents is authorised, \textbf{human-approved} and logged in a tamper-evident journal (\textbf{multi-agent orchestration}; kernel live, agent roles in build).}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{MeetingOS, AI Meeting Memory} $|$ \emph{FastAPI, React, SQLite FTS5, embeddings, Whisper, MCP, Docker}}{2026 -- Present}
+          \resumeItemListStart
+            \resumeItem{Eliminated unsupported claims in AI meeting notes, checked by about 350 tests, by verifying every extracted decision, action and risk against its timestamped transcript quote; ships an \textbf{MCP server} and fully local deployment for on-premise clients.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Volve Hybrid Forecaster, Physics-Informed ML} $|$ \emph{Python, PyTorch, SciPy, MLflow}}{May 2026}
+          \resumeItemListStart
+            \resumeItem{\textbf{Cut oil-production forecast error 89.6\%} against a physics-only baseline on the main well of Equinor's open Volve field by pairing decline-curve physics with a PyTorch LSTM that learns the remaining error.}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.12in, label={}, topsep=2pt]
+    \small{\item{
+     \textbf{AI Engineering}{: LLM applications, AI agents, multi-agent orchestration, tool and function calling, MCP servers, RAG, hybrid and vector search (pgvector), semantic layers, text-to-SQL, structured outputs, LLM evaluation (evals), guardrails, prompt-injection testing, human-in-the-loop approval, Anthropic Claude, OpenAI and Gemini APIs} \\
+     \textbf{Machine Learning}{: PyTorch, scikit-learn, XGBoost, LSTM, time-series forecasting, physics-informed ML, uncertainty quantification, computer vision (OpenCV), speech-to-text (Whisper), MLflow, NumPy, pandas, SciPy} \\
+     \textbf{Engineering}{: BIM (IFC, IDS, BCF, IfcOpenShell), structural load takedown and frame analysis (PyNite), computational geometry, decline-curve analysis, production forecasting, digital twins, GIS, AutoCAD, SolidWorks, MATLAB} \\
+     \textbf{Software}{: Python, TypeScript, SQL, FastAPI, React, Next.js, three.js, PostgreSQL (row-level security), Supabase, SQLite, SQLAlchemy, Pydantic, Docker, GitHub Actions CI/CD, pytest, Playwright, Git, n8n} \\
+     \textbf{Languages}{: English (IELTS 8.0), Russian, Kazakh}
+    }}
+ \end{itemize}
+ \vspace{-9pt}
+
+%-----------LEADERSHIP AND HONOURS-----------
+\section{Leadership and Honours}
+ \begin{itemize}[leftmargin=0.12in, label={}, topsep=2pt]
+    \small{\item{
+     \textbf{Founder, AIxelera}{: grew a new university AI and engineering society to 130+ members (41\% of the cohort) in 3 months} \\
+     \textbf{Honours}{: Bronze, Copernicus International Physics Olympiad $|$ Gold, StemCO $|$ Best in Year, UK Mathematics Trust Challenge $|$ Lumiere Research Scholar $|$ Pioneer Academics $|$ Algoverse AI Research $|$ Taekwondo black belt, 11 years of competition}
+    }}
+ \end{itemize}
+
+\end{document}
